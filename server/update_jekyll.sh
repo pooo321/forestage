@@ -5,7 +5,7 @@ __date="$(date +%x)"
 
 cd "${__dir}/../client"
 jekyll build
-git pull origin master
+git pull 
 git add .
 git commit -m "Update data - auto push ${__date}"
-git push origin master
+git push
